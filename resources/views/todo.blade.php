@@ -19,7 +19,7 @@
 </div>
 
 <div class="text-center mt-5">
-    <h2>Add Todo</h2>
+    <h2>Add Check</h2>
     
 
     <form class="row g-3 justify-content-center" method="POST" action="{{route('todos.store')}}">
@@ -34,7 +34,7 @@
 </div>
 
 <div class="text-center">
-    <h2>All Todos</h2>
+    <h2>All Checks</h2>
     <div class="row justify-content-center">
         <div class="col-lg-6">
 

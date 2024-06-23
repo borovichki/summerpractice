@@ -91,7 +91,7 @@ class TodoController extends Controller
         $todo->is_completed=$request->get('is_completed');
         $todo->save();
 
-        return redirect()->route('todos.index')->with('success', 'Updated Todo');
+        return redirect()->route('todos.index')->with('success', 'Updated Check');
 
     }
 
@@ -102,6 +102,6 @@ class TodoController extends Controller
     {
         //
         Todo::where('id',$id)->delete();
-        return redirect()->route('todos.index')->with('success', 'Deleted Todo');
+        return redirect()->route('todos.index')->with('success', 'Deleted Check');
     }
 }

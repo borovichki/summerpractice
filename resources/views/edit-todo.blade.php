@@ -19,7 +19,7 @@
 </div>
 
 <div class="text-center mt-5">
-    <h2>Edit Todo</h2>
+    <h2>Edit Check</h2>
 </div>
 
 <form  method="POST" action="{{route('todos.update',['todo'=>$todo->id])}}">
